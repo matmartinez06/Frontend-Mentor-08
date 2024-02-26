@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopstudios landing page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container" id="open">
+            <img src="images/logo.svg" alt="logo" class="nav__logo">
+
+            <div class="nav__links">
+                <a href="#" class="nav__link">About</a>
+                <a href="#" class="nav__link">Careers</a>
+                <a href="#" class="nav__link">Events</a>
+                <a href="#" class="nav__link">Products</a>   
+                <a href="#" class="nav__link">Support</a>
+            </div>
+
+            <a href="#open" class="nav__hamburguer">
+                <img src="images/icon-hamburger.svg" alt="menu" class="nav__icon">
+            </a>
+            <a href="#" class="nav__close">
+                <img src="images/icon-close.svg" alt="close" class="nav__icon">
+            </a>
+        </nav>
+        <div class="hero__text container">
+            <h1 class="hero__title">Immersive experiences that deliver</h1>
+        </div>
+    </header>
+
+    <main class="main container">
+        <section class="leader">     
+            <picture class="leader__picture">
+                <img src="images/mobile/image-interactive.jpg" alt="interactive" class="leader__img">
+                <source srcset="images/desktop/image-interactive.jpg" class="leader__img" media="(min-width:768px)">            
+            </picture>
+            <div class="leader__texts">
+                <h2 class="leader__title">the leader in interactive vr</h2>
+                <p class="leader__paragraph">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+                    projects for some of the best companies around the globe. Our award-winning 
+                    creations have transformed businesses through digital experiences that bind 
+                    to their brand.</p>
+            </div>
+        </section>
+
+        <section class="gallery container">
+            <h2 class="gallery__title">Our creations</h2>
+            <a href="#" class="gallery__cta">See all</a>
+            <div class="gallery__container">
+                <picture class="gallery__picture" data-message="Deep earth">
+                    <source srcset="./images/desktop/image-deep-earth.jpg" class="gallery__img" media="(min-width:768px)">
+                    <img src="./images/mobile/image-deep-earth.jpg" class="gallery__img">
+                </picture>
+
+                <picture class="gallery__picture" data-message="Night arcade">
+                    <source srcset="./images/desktop/image-night-arcade.jpg" class="gallery__img" media="(min-width:768px)">
+                    <img src="./images/mobile/image-night-arcade.jpg" class="gallery__img">
+                </picture>
+
+                <picture class="gallery__picture" data-message="Soccer team VR">
+                    <source srcset="./images/desktop/image-soccer-team.jpg" class="gallery__img" media="(min-width:768px)">
+                    <img src="./images/mobile/image-soccer-team.jpg" class="gallery__img">
+                </picture>
+
+                <picture class="gallery__picture" data-message="The grid">
+                    <source srcset="./images/desktop/image-grid.jpg" class="gallery__img" media="(min-width:768px)">
+                    <img src="./images/mobile/image-grid.jpg" class="gallery__img">
+                </picture>
+
+                <picture class="gallery__picture" data-message="From up above VR">
+                    <source srcset="./images/desktop/image-from-above.jpg" class="gallery__img" media="(min-width:768px)">
+                    <img src="./images/mobile/image-from-above.jpg" class="gallery__img">
+                </picture>
+
+                <picture class="gallery__picture" data-message="Pocket borealis">
+                    <source srcset="./images/desktop/image-pocket-borealis.jpg" class="gallery__img" media="(min-width:768px)">
+                    <img src="./images/mobile/image-pocket-borealis.jpg" class="gallery__img">
+                </picture>
+
+                <picture class="gallery__picture" data-message="The curiosity">
+                    <source srcset="./images/desktop/image-curiosity.jpg" class="gallery__img" media="(min-width:768px)">
+                    <img src="./images/mobile/image-curiosity.jpg" class="gallery__img">
+                </picture>
+
+                <picture class="gallery__picture" data-message="Make it fisheye">
+                    <source srcset="./images/desktop/image-fisheye.jpg" class="gallery__img" media="(min-width:768px)">
+                    <img src="./images/mobile/image-fisheye.jpg" class="gallery__img">
+                </picture>
+                
+            </div>          
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <img src="images/logo.svg" alt="" class="footer__logo">
+            <div class="footer__links">
+                <a href="#" class="footer__link">About</a>
+                <a href="#" class="footer__link">Careers</a>
+                <a href="#" class="footer__link">Events</a>
+                <a href="#" class="footer__link">Products</a>
+                <a href="#" class="footer__link">Support</a>
+            </div>
+
+            <nav class="footer__nav">
+                <a href="#" class="social__nav">
+                    <img src="images/icon-facebook.svg" alt="facebook" class="social__icon">
+                </a>
+                <a href="#" class="social__nav">
+                    <img src="images/icon-twitter.svg" alt="twitter" class="social__icon">
+                </a>
+                <a href="#" class="social__nav">
+                    <img src="images/icon-pinterest.svg" alt="pinterest" class="social__icon">
+                </a>
+                <a href="#" class="social__nav">
+                    <img src="images/icon-instagram.svg" alt="instagram" class="social__icon">
+                </a>
+            </nav>
+
+            <p class="footer__copy">© 2021 Loopstudios. All rights reserved.</p>
+        </section>
+    </footer>
+</body>
+</html>
